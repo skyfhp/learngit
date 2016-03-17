@@ -92,5 +92,17 @@ namespace TestProject1
             Assert.AreEqual(expected, actual);
             // Assert.Inconclusive("验证此测试方法的正确性。");
         }
+
+        public void AddTest2()
+        {
+            Program target = new Program(); // TODO: 初始化为适当的值
+            int a = 1; // TODO: 初始化为适当的值
+            int b = 5; // TODO: 初始化为适当的值
+            int expected = 6; // TODO: 初始化为适当的值
+            int actual;
+            actual = target.Add(a, b);
+            Assert.AreEqual(expected, actual);
+            // Assert.Inconclusive("验证此测试方法的正确性。");
+        }
     }
 }
